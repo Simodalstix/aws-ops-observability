@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aws-ops-observability"
+version = "0.1.0"
+description = "Shared observability foundation for the ops-lab AWS platform"
+authors = ["Simon Parker"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aws-cdk-lib = "^2.0"
+constructs = ">=10.0.0,<11.0.0"
+boto3 = "^1.42.88"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

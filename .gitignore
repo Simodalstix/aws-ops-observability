@@ -1,1 +1,12 @@
 CLAUDE.md
+
+# CDK
+cdk.out/
+cdk.context.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+.venv/
