@@ -33,7 +33,7 @@ Shared observability foundation for the ops-lab AWS platform. Deployed permanent
 
 ```bash
 poetry install
-cdk deploy
+poetry run cdk deploy
 ```
 
 See [`docs/cli-playbooks/01-observability.md`](docs/cli-playbooks/01-observability.md) for full operational runbook.
